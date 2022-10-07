@@ -3,5 +3,6 @@
 public class Manager : Person
 {
     public string Department { get; set; }
-    public List<Worker> Workers { get; set; }
+    
+    public virtual List<Worker> Workers { get; set; }
 }

@@ -4,4 +4,6 @@ public class Worker : Person
 {
     public string Position { get; set; }
     public bool IsActive { get; set; }
+
+    public virtual Manager Manager { get; set; }
 }
